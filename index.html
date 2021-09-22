@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+</head>
+<style>
+    .block {
+        height: 200px;
+        padding: 1rem;
+        background-color: yellow;
+    }
+    
+    .icon-block {
+        color: #333;
+        border: 1px solid #333;
+        padding: 0.5rem;
+        margin: 0.2rem;
+        font-size: 24px;
+    }
+</style>
+
+<body>
+    <div class="container">
+
+        <div class="row g-2">
+
+            <div class="col-3">
+                <div class="block d-flex justify-content-end align-items-end">
+                    <div class="icon-block fas fa-dog"></div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="block d-flex flex-column align-items-end justify-content-evenly">
+                    <div class="icon-block fas fa-dog"></div>
+                    <div class="icon-block fas fa-kiwi-bird"></div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="block d-flex flex-column align-items-start justify-content-around">
+                    <div class="icon-block fas fa-cat"></div>
+                    <div class="icon-block fas fa-kiwi-bird"></div>
+                </div>
+            </div>
+
+            <div class="col-3">
+                <div class="block d-flex flex-column justify-content-end align-items-start">
+                    <div class="icon-block fas fa-dog"></div>
+                    <div class="icon-block fas fa-cat"></div>
+                </div>
+            </div>
+
+
+        </div>
+</body>
+
+</html>
